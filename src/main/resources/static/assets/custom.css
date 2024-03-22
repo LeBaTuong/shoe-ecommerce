@@ -1,0 +1,276 @@
+a {
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+.w-50.me-3 {
+    border: 0.5px solid rgb(199, 196, 196);
+    border-radius: 7px;
+    height: 30px;
+}
+
+#searchByTitle {
+    border: none;
+    padding: 0 10px;
+    font-size: small;
+}
+
+.fa-solid.fa-magnifying-glass {
+    margin: 10px;
+}
+
+.row .col-lg-2 {
+    border-right: 0.5px solid rgb(199, 196, 196);
+    min-height: 1000px;
+}
+
+.row.row-cols-5 .col {
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 22%;
+}
+
+.d-flex button {
+    margin-right: 5px;
+    padding: 3px 10px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#allColor {
+    background: linear-gradient(to right,
+            red 0%,
+            red 30%,
+            rgb(4, 0, 255) 30%,
+            rgb(4, 0, 255) 70%,
+            orange 70%,
+            orange 100%);
+}
+
+#color-1 {
+    background-color: black;
+}
+
+#color-2 {
+    background-color: blue;
+}
+
+#color-3 {
+    background-color: red;
+}
+
+#color-4 {
+    background-color: green;
+}
+
+#color-5 {
+    background-color: white;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+/*.d-flex.align-items-center {*/
+/*    position: relative;*/
+/*}*/
+
+/*.fa-solid.fa-cart-arrow-down.fa-lg {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*}*/
+
+.card-img-top {
+    height: 100px;
+    width: 170px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.card {
+    height: 220px;
+}
+
+.btn:focus {
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.order {
+    background-color: #0003;
+}
+
+.customerInfo {
+    background-color: #0000001a;
+}
+
+.table thead th {
+    font-weight: 600;
+}
+
+.col-8 a {
+    color: rgb(80, 80, 241);
+}
+
+.table img {
+    width: 8rem;
+    height: 8rem;
+    padding: 13px;
+}
+
+.table tbody td:first-child {
+    width: 10rem;
+}
+
+.table tbody tr {
+    vertical-align: middle;
+}
+
+.quantityBtn {
+    background-color: #0006;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fa-circle-xmark {
+    color: #0006;
+}
+
+.quantityBtn span:first-child,
+span:last-child {
+    cursor: pointer;
+}
+
+.table th,
+td {
+    width: auto;
+    text-align: center;
+}
+
+.order, .customerInfo {
+    border-radius: 7px;
+}
+
+.d-flex.flex-column.mx-3 {
+    border-top: 0.5px solid #e9e6e6;
+    border-bottom: 0.5px solid #e9e6e6;
+}
+
+.position-absolute.top-0 {
+    width: 18px;
+    text-align: center;
+    --bs-badge-padding-x: 0;
+    --bs-badge-padding-y: 0;
+    line-height: none;
+}
+
+.cartBtn {
+    position: relative;
+}
+
+.btn.btn-success {
+    width: 100%;
+    height: 60px;
+    border-radius: 0;
+}
+
+.fa-circle-xmark:hover, .btnAddToCart:hover {
+    cursor: pointer;
+}
+
+.tbOrder th {
+    background-color: #2879ee;
+    color: #FFFFFF;
+}
+
+.tbOrder span, #renderProduct span {
+    background-color: #7c7c7c;
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.modal-body-item {
+    border-bottom: 0.5px solid #dee2e6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btnDetail:hover {
+    color: #0f5132;
+    cursor: grab;
+}
+
+.info div:last-child {
+    font-weight: 700;
+}
+
+.modal-order-detail .modal-body {
+    padding-top: 5px;
+}
+
+.modal-body-item tr {
+    font-size: 13px;
+}
+
+.modal-body-item tr td:nth-child(2) {
+    text-align: left;
+}
+
+.modal-body-item img {
+    height: 75px;
+}
+
+.modal-body-item td {
+    padding: 0;
+}
+
+.modal-body-item div {
+    font-size: 13px;
+    margin: 2px;
+}
+
+.modal-body-item tr td:first-child {
+    width: 8rem;
+}
+
+.orderElement, .productElement:hover {
+    cursor: pointer;
+}
+
+.orderElement, .productElement {
+    color: #3D64FB;
+}
+
+.orderElement i, .productElement i {
+    width: 25px;
+}
+
+.navOrder {
+    border-right: none !important;
+}
+
+#field, #order {
+    width: 9rem;
+}
+
+#renderProduct td:first-child {
+    min-width: 25rem;
+}
